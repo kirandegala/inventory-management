@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <title>INSERT TRACKING INFO TABLE</title>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="styleforaddforms.css">
+  </head>
+  <body>
+    <form action="phpforTRACK.php" method="post">
+      <h1>ADDING TO TABLE</h1>
+      <div class="icon">
+        <i class="fas fa-user-circle"></i>
+      </div>
+      <div class="formcontainer">
+      <div class="container">
+        <label for="uname"><strong>Drugname</strong></label>
+        <input type="text" placeholder="Enter Drugname" name="dname" required>
+        <label for="mail"><strong>Quantity</strong></label>
+        <input type="text" placeholder="Quantity" name="Quantity" required>
+        <label for="mail"><strong>Estimated Delivery</strong></label>
+        <input type="text" placeholder="Est Delivery" name="date" required>
+        <label for="mail"><strong>Tracking id</strong></label>
+        <input type="text" placeholder="Enter Tracking id" name="trackid" required>
+        <label for="mail"><strong>Mode of transport</strong></label>
+        <input type="text" placeholder="Enter Mode of transport" name="transport" required>
+      </div>
+      <button type="submit" name="submit"><strong>ADD TO TRACKING INFO TABLE</strong></button>
+    </form>
+  </body>
+</html>

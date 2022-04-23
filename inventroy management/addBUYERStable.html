@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <title>INSERT BUYER'S INFO TABLE</title>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="styleforaddforms.css">
+  </head>
+  <body>
+    <form action="phpforADDBUYERStable.php" method="post">
+      <h1>ADDING TO TABLE</h1>
+      <div class="icon">
+        <i class="fas fa-user-circle"></i>
+      </div>
+      <div class="formcontainer">
+      <div class="container">
+        <label for="uname"><strong>Buyer's Name</strong></label>
+        <input type="text" placeholder="Enter Buter's name" name="bname" required>
+
+        <label for="mail"><strong>Location</strong></label>
+        <input type="text" placeholder="location" name="location" required>
+
+        <label for="mail"><strong>Contact No.</strong></label>
+        <input type="text" placeholder="contact number" name="cno" required>
+        
+      </div>
+      <button type="submit" name="submit"><strong>ADD TO BUYER'S INFO TABLE</strong></button>
+    </form>
+  </body>
+</html>

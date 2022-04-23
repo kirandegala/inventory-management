@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <title>MODIFY INVENTORY TABLE</title>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="styleforforms.css">
+  </head>
+  <body>
+    <form action="phpforMODinventory.php" method="post">
+      <h1>MODIFYING TO TABLE</h1>
+      <div class="icon">
+        <i class="fas fa-user-circle"></i>
+      </div>
+      <div class="formcontainer">
+      <div class="container">
+        <label for="uname"><strong>Drugname</strong></label>
+        <input type="text" placeholder="Enter Drugname" name="dname" required>
+
+        <label for="mail"><strong>Sold Stock</strong></label>
+        <input type="text" placeholder="Sold Stock" name="ss" required>
+
+        <label for="mail"><strong>Available Stock</strong></label>
+        <input type="text" placeholder="Available Stock" name="as" required>
+
+        <label for="mail"><strong>Current Drug name</strong></label>
+        <input type="text" placeholder="Current Drug name" name="currdname" required>
+      </div>
+      <button type="submit" name="submit"><strong>MODIFY INVENTORY TABLE</strong></button>
+    </form>
+  </body>
+</html>
